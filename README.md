@@ -1,2 +1,2 @@
 # CLC-2016
-Constructal Law Conference
+Constructal Law and Second Law Conference
