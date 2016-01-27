@@ -3,4 +3,4 @@ base_url: '/sdingelectro'
 defaults:
   - scope: {path: ""}
     values:
-      layout: "base"
+      layout: "page"

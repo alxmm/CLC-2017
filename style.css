@@ -8,6 +8,19 @@
   text-decoration: none;
 }
 
+.header h1 {
+  margin: 40px;
+}
+
+.header h2 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.menu {
+  margin: 50px 0;
+}
+
 .menu > li {
   display: inline-block;
   list-style: none;
