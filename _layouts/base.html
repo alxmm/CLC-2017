@@ -13,13 +13,21 @@
       <h1><a href="{{ site.base_url }}/">CLC 2016</a></h1>
 
     </div>
-    <div class="col-sm-9">
+    <div class="col-sm-9 menubox">
 
       <ul class="menu">
       {% for item in site.main_menu %}
         <li><a href="{{ site.base_url }}{{ item.url }}">{{ item.title }}</a></li>
       {% endfor %}
       </ul>
+
+      {% if page.submenu %}
+      <ul class="menu menu-secondary">
+      {% for item in page.submenu %}
+        <li><a href="{{ site.base_url }}{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+      </ul>
+      {% endif %}
 
     </div>
   </div>
