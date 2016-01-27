@@ -16,14 +16,9 @@
     <div class="col-sm-9">
 
       <ul class="menu">
-        <li><a href="{{ site.base_url }}/">home</a></li>
-        <li><a href="{{ site.base_url }}/about.html">about the conference</a></li>
-        <li><a href="{{ site.base_url }}/information.html">information</a></li>
-        <li><a href="{{ site.base_url }}/board.html">board</a></li>
-        <li><a href="{{ site.base_url }}/reg-deadlines.html">registration</a></li>
-        <li><a href="{{ site.base_url }}/authors.html">author's area</a></li>
-        <li><a href="{{ site.base_url }}/venue.html">venue</a></li>
-        <li><a href="{{ site.base_url }}/contacts.html">contacts</a></li>
+      {% for item in site.main_menu %}
+        <li><a href="{{ site.base_url }}{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
       </ul>
 
     </div>
