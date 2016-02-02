@@ -1,4 +1,4 @@
-base_url: '/sdingelectro'
+base_url: '/CLC-2016'
 
 defaults:
   - scope: {path: ""}
