@@ -1,4 +1,5 @@
-base_url: '/CLC-2016'
+base_url: '/CLC-2017'
+title: "CLC 2017"
 
 defaults:
   - scope: {path: ""}
