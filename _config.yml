@@ -8,7 +8,6 @@ defaults:
 
 main_menu:
   - {"url": "/", title: "home"}
-  - {"url": "/about.html", title: "about the conference"}
   - {"url": "/information.html", title: "information"}
   - {"url": "/board.html", title: "board"}
   - {"url": "/reg-deadlines.html", title: "registration"}
