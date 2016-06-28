@@ -10,7 +10,7 @@ main_menu:
   - {"url": "/", title: "home"}
   - {"url": "/information.html", title: "information"}
   - {"url": "/board.html", title: "board"}
-  - {"url": "/reg-deadlines.html", title: "registration"}
+  - {"url": "/registration.html", title: "registration"}
   - {"url": "/authors.html", title: "author's area"}
   - {"url": "/venue.html", title: "venue"}
   - {"url": "/contacts.html", title: "contacts"}
