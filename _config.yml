@@ -14,3 +14,4 @@ main_menu:
   - {"url": "/authors.html", title: "author's area"}
   - {"url": "/venue.html", title: "venue"}
   - {"url": "/contacts.html", title: "contacts"}
+  - {"url": "/history.html", title: "history"}
